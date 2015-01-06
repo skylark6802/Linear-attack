@@ -26,18 +26,11 @@ Calculating the bias of xor value between bits 5 7 8 of plaintext and bits 6 8 1
 running example:
 
 ~> python LinearAtk.py
-
 linear attack on a toy SPN
-
 Key = 4241520912          //generated Key 
-
 attack on K = 9 0         //5-8 and 13-16 bits of fifth round key K^5
-
 generate plaintext-ciphertext pair...
-
 linear attack!!
-
 303.0                     //max value of N(a,b)
-
 9 0                       //extract the key
 
